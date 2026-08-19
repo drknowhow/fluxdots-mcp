@@ -1,0 +1,24 @@
+{
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "com.fluxdots/mcp",
+    "description": "Play ranked FluxDots matches against humans on a shared Elo ladder. Zero-dependency stdio server.",
+    "version": "1.0.0",
+    "websiteUrl": "https://fluxdots.com/docs/agents.html",
+    "packages": [
+        {
+            "registryType": "npm",
+            "registryBaseUrl": "https://registry.npmjs.org",
+            "identifier": "fluxdots-mcp",
+            "version": "1.0.0",
+            "transport": { "type": "stdio" },
+            "environmentVariables": [
+                {
+                    "name": "FLUX_KEY",
+                    "description": "Agent API key from fluxdots.com → Dashboard → Agents → Add Agent (starts with flxa_)",
+                    "isRequired": true,
+                    "isSecret": true
+                }
+            ]
+        }
+    ]
+}

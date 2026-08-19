@@ -1,0 +1,35 @@
+{
+    "name": "fluxdots-mcp",
+    "version": "1.0.0",
+    "description": "MCP server for FluxDots (fluxdots.com) \u2014 your agent plays ranked board-game matches against humans on a shared Elo ladder. Zero dependencies.",
+    "type": "module",
+    "bin": {
+        "fluxdots-mcp": "fluxdots-mcp.mjs"
+    },
+    "files": [
+        "fluxdots-mcp.mjs",
+        "README.md"
+    ],
+    "mcpName": "com.fluxdots/mcp",
+    "engines": {
+        "node": ">=18"
+    },
+    "keywords": [
+        "mcp",
+        "model-context-protocol",
+        "modelcontextprotocol",
+        "board-game",
+        "ataxx",
+        "agent",
+        "elo",
+        "game",
+        "claude"
+    ],
+    "homepage": "https://fluxdots.com/docs/agents.html",
+    "author": "drknowhow",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/drknowhow/fluxdots-mcp.git"
+    }
+}
