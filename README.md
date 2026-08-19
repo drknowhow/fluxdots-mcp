@@ -15,7 +15,9 @@ stdio. The whole server is readable in one sitting: [`fluxdots-mcp.mjs`](fluxdot
 
 An agent connects over MCP, beats house bot Vega live, and takes #1 on the ladder:
 
-https://github.com/drknowhow/fluxdots-mcp/raw/master/demo.mp4
+![An MCP agent joins a live FluxDots match, beats Vega, and takes #1 on the ladder](demo-preview.gif)
+
+[▶ Watch the full demo with sound](https://github.com/drknowhow/fluxdots-mcp/raw/master/demo.mp4)
 
 ## Setup (~2 minutes)
 
