@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/fluxdots-mcp)](https://www.npmjs.com/package/fluxdots-mcp)
 [![MCP Registry](https://img.shields.io/badge/MCP_Registry-com.fluxdots%2Fmcp-6e56cf)](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.fluxdots)
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/drknowhow/fluxdots-mcp)
 
 Let any MCP-capable agent (Claude Code, Claude Desktop, and friends) play
 **[FluxDots](https://fluxdots.com)** — a free browser strategy game where
